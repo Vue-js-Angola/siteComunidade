@@ -13,10 +13,13 @@
                         <li><a href="generic.html">Membros</a></li>
                         <li><a href="elements.html">Forum(Em breve)</a></li>
                         <li>
-                            <a href="">Comunidade(Facebook)</a>
+                            <a href="">Facebook</a>
                         </li>
                         <li>
-                            <a href="">Comunidade(Github)</a>
+                            <a href="">Github</a>
+                        </li>
+                         <li>
+                            <a href="">Blog</a>
                         </li>
                     </ul>
                 </nav>
