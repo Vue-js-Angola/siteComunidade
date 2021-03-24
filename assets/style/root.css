@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ul, a, a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Quicksand';
+}
+
+/* css reutilizavel */
+
+.inner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

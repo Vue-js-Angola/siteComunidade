@@ -1,0 +1,29 @@
+
+/* reset css*/
+
+
+/**/
+
+/* continuando */
+
+#header{
+
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    padding: 15px;
+
+}
+#header a{
+    color: #333;
+}
+
+#nav ul li{
+
+    margin-right: 22px;
+    font-weight: bold;
+
+}
+#nav ul li:last-child{
+    margin-right: 0;
+}
+
