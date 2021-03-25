@@ -20,3 +20,25 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.container{
+
+    width: 1150px;
+    margin: 0 auto;
+
+}
+.mt{
+    margin-top: 22px;
+}
+.posts{
+    max-width: 1150px;
+    width: 1150px;
+}
+.posts .post-item{
+    max-width: 20%;
+}
+.posts img{
+    max-width: 100%;
+}
+
+/**/

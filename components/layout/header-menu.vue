@@ -33,7 +33,7 @@
 import '../../assets/style/root.css'
 import '../../assets/style/header.css'
 export default {
-    name: 'header'
+    name: 'header-menu'
 }
 </script>
 
