@@ -6,11 +6,15 @@
 }
 ul, a, a:hover{
     list-style: none;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+a{
+    color: #fff !important;
 }
 
 body{
-    font-family: 'Quicksand';
+    font-family: 'Quicksand' !important;
+    background-color: #131219 !important;
 }
 
 /* css reutilizavel */
@@ -25,20 +29,55 @@ body{
 
     width: 1150px;
     margin: 0 auto;
+    margin-bottom: 22px;
 
 }
 .mt{
     margin-top: 22px;
 }
-.posts{
-    max-width: 1150px;
-    width: 1150px;
-}
-.posts .post-item{
-    max-width: 20%;
-}
+
 .posts img{
     max-width: 100%;
+    border-radius: 10px;
+    height: 169px;
 }
 
 /**/
+
+.membro-card{
+    display: flex;
+    background: #15141B;
+    color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+    font-size: 14px;
+    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+    transition: box-shadow 0.1s ease-in-out;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    align-items: center;
+    margin-top: 12px;
+}
+.membro-card img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.membro-card .membro-img{
+    margin-right: 12px;
+}
+.membro-card  span{
+    display: block;
+    margin-top: 5px;
+}
+.bg-dark{
+    background: #15141B;
+}
+.footer{
+    width: 100%;
+    padding: 5px;
+    background: #262161;
+    box-shadow: 1px 0px 0px 3px rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    color: #fff;
+}

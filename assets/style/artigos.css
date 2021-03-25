@@ -1,0 +1,69 @@
+.banner-artigos{
+    width: 100%;
+    padding: 60px;
+    background: #262161;
+    box-shadow: 1px 0px 0px 3px rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    color: #fff;
+    height: 300px;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+}
+.banner-artigos img{
+    width: 50px;
+    height: 50px;
+}
+article{
+    border-bottom: 1px solid #262161;
+    padding: 10px;
+    margin-top: 10px;
+}
+article .artigo-title h5{
+    font-weight: bolder;
+    font-size: 36px;
+}
+article .artigo-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 22px;
+}
+article .author-info{
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+    border-right: 1px solid  #262161;
+    padding: 10px;
+    
+}
+article .author-info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.post-author-info {
+    border-top: 1px solid #262161;
+}
+.author-info-post{
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+    padding: 10px;
+}
+.author-info-post img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: 1px solid #262161;
+    padding: 10px;
+}
+.author-info-post .data{
+    margin-left: 22px;
+}
+.detalhe{
+    margin-left: 12px;
+}
