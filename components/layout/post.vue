@@ -4,10 +4,10 @@
 
         <a href="">
             <div class="post-img">
-                <img :src="`@/assets/images/comunidade.jpg`" alt="dd">
+                <img :src="`/images/${imgPost}`" alt="dd">
             </div>
-                {{imgPost}}
-            <div class="post-title">
+               
+            <div class="post-title mt-2">
                 <span>O que é e como aprender Vue.js</span>
             </div>
             <div class="post-data">
@@ -23,9 +23,7 @@
 export default {
     name: 'post',
     props: ['imgPost'],
-    created(){
-        console.log(this.imgPost)
-    }
+    
 }
 </script>
 
