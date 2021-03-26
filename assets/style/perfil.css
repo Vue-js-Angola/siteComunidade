@@ -1,0 +1,26 @@
+.user{
+
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+
+}
+.user .user-img img{
+    width: 160px;
+    height: 130px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    background-color: var(--color-avatar-bg);
+    border-radius: 6px;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 1px var(--color-avatar-border);
+}
+.user .user-img{
+    margin-right: 22px;
+}
+.user .info-user h5{
+    font-weight: bolder;
+    font-size: 32px;
+}
