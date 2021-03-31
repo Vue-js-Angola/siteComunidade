@@ -4,7 +4,7 @@
     <div class="container text-white mt-5">
 
         <p>
-            <NuxtLink to="/artigos" class="d-block"><i class="fa fa-arrow-left"></i> Home</NuxtLink>
+            <NuxtLink to="/" class="d-block"><i class="fa fa-arrow-left"></i> Home</NuxtLink>
             <NuxtLink to="/postar"><i class="fa fa-arrow-left"></i> Publicar</NuxtLink>
         </p>
 

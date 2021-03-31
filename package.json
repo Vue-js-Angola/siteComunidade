@@ -12,7 +12,9 @@
     "@nuxtjs/axios": "^5.13.1",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "vue-carousel": "^0.18.0"
+    "tiptap-extensions": "^1.35.1",
+    "vue-carousel": "^0.18.0",
+    "vueditor": "^0.3.1"
   },
   "devDependencies": {}
 }

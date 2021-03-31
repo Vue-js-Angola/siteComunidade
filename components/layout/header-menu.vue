@@ -13,6 +13,7 @@
                         <li><NuxtLink to="/">Home</NuxtLink></li>
                         <li><a href="#membro">Membros</a></li>
                         <li><NuxtLink to="/artigos">Artigos</NuxtLink></li>
+                        <li><NuxtLink to="/" class="btn btn-primary">Conta</NuxtLink></li>
                         <li v-if="page == 'artigos'"><NuxtLink to="/artigos">Postar</NuxtLink></li>
                     </ul>
                 </nav>
