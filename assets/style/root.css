@@ -41,7 +41,30 @@ body{
     border-radius: 10px;
     height: 169px;
 }
-
+.input-custom{
+    background: rgb(18 18 20) !important;
+    border: 2px solid rgb(40, 39, 44) !important;
+    color: #fff  !important;
+    height: 50px;
+    font-size: 16px;
+    background: rgb(18, 18, 20);
+    border-color: rgb(18, 18, 20);
+    color: rgb(255, 255, 255);
+    padding: 0px 2.65em;
+    border-radius: 5px;
+}
+.ve-toolbar{
+    background: #131219  !important;
+}
+.vueditor i{
+    color: #fff  !important;
+}
+.ve-toolbar div{
+    color: #fff !important;
+}
+.ve-design iframe body{
+    color: #fff  !important;
+}
 /**/
 
 .membro-card{

@@ -13,15 +13,15 @@
 
             <div class="col-md-12">
                 <label for="">Titulo do artigo</label>
-                <input type="text" class="form-control mb-2">
+                <input type="text" class="form-control mb-2 input-custom">
 
                 <label for="" class="mt-2">Subtitulo do artigo</label>
-                <input type="text" class="form-control mb-2">
+                <input type="text" class="form-control mb-2 input-custom">
 
                 <label for="" class="mt-2">Imagem de capa</label>
-                <input type="file" class="form-control mb-1">
+                <input type="file" class="form-control mb-1 input-custom">
                 <no-ssr>
-                    <Vueditor></Vueditor>    
+                    <Vueditor  class="input-custom"></Vueditor>    
                 </no-ssr>
             </div>
             
@@ -43,6 +43,8 @@ import '../assets/style/postar.css'
 
 export default {
     name: 'postar',
+
+   
     head: {
 
     title: 'Vue.js Angola',
@@ -66,9 +68,7 @@ export default {
     ]
   },
 
-  mounted(){
-      console.log(this.$Vueditor)
-  }
+ 
 }
 </script>
 
