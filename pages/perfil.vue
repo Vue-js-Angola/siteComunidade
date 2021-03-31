@@ -24,6 +24,9 @@
                         <p>
                             Artigos: <b>4</b>
                         </p>
+                        <p>
+                            <i class="fa fa-github"></i>: <a href="">edson2001</a><b>4</b>
+                        </p>
                     </div>
 
                 </div>
