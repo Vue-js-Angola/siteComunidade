@@ -20,8 +20,9 @@
 
                 <label for="" class="mt-2">Imagem de capa</label>
                 <input type="file" class="form-control mb-1 input-custom">
+               
                 <no-ssr>
-                    <Vueditor  class="input-custom"></Vueditor>    
+                  <froala id="edit" :tag="'textarea'"  ></froala>
                 </no-ssr>
             </div>
             

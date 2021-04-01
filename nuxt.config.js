@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'vuejsangola',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt'
     },
     meta: [
       { charset: 'utf-8' },
@@ -20,11 +20,13 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    {src:'~/plugins/vue-editor.js', ssr: false}
+
+    {src: '~/plugins/froala.js', ssr: false}
     
   ],
 

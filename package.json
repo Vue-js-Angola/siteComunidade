@@ -12,9 +12,9 @@
     "@nuxtjs/axios": "^5.13.1",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
+    "simplemde": "^1.11.2",
     "tiptap-extensions": "^1.35.1",
-    "vue-carousel": "^0.18.0",
-    "vueditor": "^0.3.1"
+    "vue-froala-wysiwyg": "^3.2.6-1"
   },
   "devDependencies": {}
 }
