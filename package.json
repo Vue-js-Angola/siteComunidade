@@ -16,5 +16,6 @@
     "tiptap-extensions": "^1.35.1",
     "vue-froala-wysiwyg": "^3.2.6-1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+  }
 }
